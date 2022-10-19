@@ -5,12 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+          font-family: Arial, Verdana, Helvetica, sans-serif;
+
+
+        }
+        div{
+            background-color: rgb(173, 216, 230);
+        }
+        #right{
+            width: 62vw;
+            height: 98vh;
+            float: right;
+            padding: 2vw;
+        }
+        #left{
+            float: left;
+            width: 26vw;
+            height: 98vh;
+            padding: 2vw;
+        }
+        .center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            border-radius: 50%;
+        }
+        #left h1{
+            text-align: center;
+            font-size: 150%;
+        }
+        #right ul{
+            list-style-type: circle;
+        }
+        #right h1{
+            background-color: rgb(137, 194, 212);
+            padding-top: 0.4rem;
+            padding-bottom: 0.4rem;
+            border-bottom: 0.5rem;
+            border-color: black;
+            border-style: solid;
+        }
+    </style>
 </head>
 <body>
     <header></header>
     <main>
-        <h1>Mi CV</h1>
-    <h2>Mostrando Mi Curriculum</h2>
+        <div id="left">
+            <img src="fotocv.jpg" width="30%" class="center">
+            <h1>Alfonso Sánchez Ramírez</h1>
+            <br>
+            <div>
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li><b>Correo:</b> alfonsohenao08@gmail.com</li>
+                    <li><b>Numero:</b> 617390732</li>
+                    <li><b>Calle:</b> Malaga. Calle Goya 8, 7, Puerta 2</li>   
+                </ul>
+            </div> 
+            <div>
+                <h3>Idiomas</h3>
+                <ul>
+                    <li><b>Español:</b> Nativo</li>
+                    <li><b>Ingles:</b> B1</li>   
+                </ul>
+            </div>
+            <div>
+                <h3>Otros</h3>
+                <ul>
+                    <li><b>Carnet Conducir:</b> No</li> 
+                </ul>
+            </div>                        
+        </div>
+        <div id="right">
+            <h1>Estudios</h1>
+            <div>
+                <h2>Técnico en Sistemas Microinformáticos y Redes</h2>
+                <p>
+                    <ul>
+                        <li>Instalar y configurar software básico y de aplicación, redes locales cableadas, inalámbricas o mixtas y conectadas a redes públicas.</li>
+                        <li>Instalar, configurar y mantener servicios multiusuario, aplicaciones y dispositivos compartidos en un entorno de red local.</li>
+                        <li>Montar y configurar ordenadores y periféricos.</li>
+                        <li>Determinar la logística asociada a las operaciones de instalación, configuración y mantenimiento de sistemas microinformáticos.</li>
+                        <li>Diagnosticar disfunciones en sistemas microinformáticos y redes mediante pruebas funcionales.</li>
+                        <li>Replantear el cableado y la electrónica de redes locales en pequeños entornos y su conexión con redes de área extensa.</li>
+                        <li>Ejecutar procedimientos establecidos de recuperación de datos y aplicaciones ante fallos y pérdidas de datos en el sistema.</li>
+                        <li>Elaborar documentación técnica y administrativa del sistema, elaborar presupuestos y asesorar al cliente. </li>
+                    </ul>
+                </p>
+                <h2>Educación Secundaria Obligatoria</h2>
+                <h2>Grado Básico</h2>
+            </div>
+            <h1>Competencias</h1>
+            <div>
+                <h2>Curso de Html Online</h2>
+                <p>
+                    <ul>
+                        <li>Curso de 240h con titulo</li>
+                    </ul>
+                </p>
+                <h2>Curso Java Online</h2>
+                <p>
+                    <ul>
+                        <li>Curso de 234h con titulo</li>
+            </div>
+        </div>
     </main>
     <footer></footer>
 </body>
